@@ -5,5 +5,9 @@
  */
 
 function minimum(array) {
-  return;
+  let mini=array[0];
+  for(let i=0; i<array.length;i++)
+return array[i]<mini;
+
+
 }
